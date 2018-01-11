@@ -11,7 +11,7 @@ if isempty(printFolder)
   if ismac
     %printFolder = '/Users/kpmurphy/Dropbox/MLbook/Figures/pdfFigures';
     %printFolder = '/Users/kpmurphy/GDrive/Backup/MLbook/book2.0/Figures/pdfFigures';
-    printFolder = '/Users/kpmurphy/github/pmtk3/figures';
+    printFolder = '~/github/pmtk3/figures'; # So the test runs on other users' machines
   else
     error('need to specify printFolder')
   end
